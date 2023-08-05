@@ -4,7 +4,7 @@ const dictonary=(word) => {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'ffd2a78430msh9f440cf75f43aa3p1b3842jsn1a7c61168e14',
+            'X-RapidAPI-Key': process.env.RAPIDAPI_KEY,
             'X-RapidAPI-Host': 'dictionary-by-api-ninjas.p.rapidapi.com'
         }
     };
